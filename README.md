@@ -1,8 +1,8 @@
 # NextSet - Proyecto Final DAW (Curso 2025-2026)
 
-Este repositorio contiene el proyecto intermodular que presenté para cerrar el ciclo de Desarrollo de Aplicaciones Web en MEDAC (Davante), con el que saqué un **8/10**.
+Este repositorio contiene el proyecto intermodular que he presentado para cerrar el ciclo de Desarrollo de Aplicaciones Web en MEDAC (Davante), con el que saqué un **8/10**.
 
-La idea detrás de **NextSet** nació tras ver cómo muchos entrenadores personales y gimnasios locales siguen atascados gestionando a sus clientes con Excels eternos, libretas o mandando PDFs pesados por WhatsApp. Diseñé esta plataforma (planteada como un modelo SaaS en la nube) para centralizar las rutinas, automatizar el control de marcas y simplificar las cuentas en un solo sitio que sea cómodo de usar en el día a día.
+La idea detrás de **NextSet** se me ocurrió tras ver cómo muchos entrenadores personales y gimnasios locales siguen atascados gestionando la documentación y planes de entrenamiento caóticamente a sus clientes con Excels eternos, libretas o mandando PDFs pesados por WhatsApp. Diseñé esta plataforma (planteada como un modelo SaaS en la nube) para centralizar las rutinas, automatizar el control de marcas y simplificar las cuentas en un solo sitio que sea cómodo de usar en el día a día.
 
 ---
 
