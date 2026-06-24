@@ -1,0 +1,103 @@
+.main-footer {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.075), rgba(0, 0, 0, 0.979)),
+    url("../assets/images/pair-gloves.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  padding: var(--padding-xxl) 0 0;
+  height: calc(100dvh - 80px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* GRID PRINCIPAL */
+.footer-grid {
+  display: grid;
+  gap: var(--gap-xl);
+  padding-bottom: var(--padding-xl);
+}
+
+/* BLOQUES */
+.footer-brand h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2rem;
+  color: white;
+}
+
+.footer-brand span {
+  color: var(--primary-orange);
+}
+
+.footer-brand p {
+  margin-top: var(--margin-xs);
+  color: #ccc;
+  max-width: 300px;
+}
+
+/* TITULOS */
+.footer-links h3,
+.footer-contact h3,
+.footer-social h3 {
+  color: var(--primary-orange);
+  margin-bottom: var(--margin-xs);
+}
+
+/* LISTAS */
+.footer-links ul,
+.footer-contact ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-md);
+}
+
+.footer-links a {
+  color: #ccc;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-links a:hover {
+  color: var(--primary-orange);
+}
+
+.social-icons {
+  display: flex;
+  gap: var(--gap-md);
+}
+
+.social-icons a {
+  width: 36px;
+  height: 36px;
+  display: grid;
+  place-items: center;
+  background-color: #1a1d20;
+  border-radius: 50%;
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  border-color: var(--primary-orange);
+  color: var(--primary-orange);
+  transform: translateY(-3px);
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: center;
+  padding: var(--padding-md);
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
+@media (min-width: 768px) {
+  .footer-grid {
+    grid-template-columns: repeat(4, 1fr);
+    align-items: start;
+  }
+}
