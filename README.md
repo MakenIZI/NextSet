@@ -13,7 +13,6 @@ Para que la aplicación sea ligera, rápida en conexiones móviles y escalable, 
 * Frontend: HTML5, CSS3 y JavaScript. Diseñado bajo enfoque *mobile-first* para que los clientes registren marcas y series cómodamente en la sala de entrenamiento.
 * Backend: Lógica de negocio y persistencia en el servidor desarrollada en PHP y Java.
 * Bases de Datos: Modelado relacional y gestión para el control de perfiles de clientes, entrenamientos y contabilidad.
-* Tecnologías XML: Tratamiento, estructuración y validación de datos del sistema utilizando DTD, XML Schema, XPath, XSLT y XQuery.
 
 ---
 
